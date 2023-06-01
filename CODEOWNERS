@@ -1,0 +1,3 @@
+CODEOWNERS @sg-ecs-sandbox/devops-team
+*network.tfvars @sg-ecs-sandbox/network-team
+*application.tfvars @sg-ecs-sandbox/app-team
