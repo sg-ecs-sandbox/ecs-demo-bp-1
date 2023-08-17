@@ -1,0 +1,12 @@
+name:  ci
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: sg-ecs-sandbox/cicd-devops-shared-actions/.github/workflows/test-wf.yml@main
